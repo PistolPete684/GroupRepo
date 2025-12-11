@@ -1,22 +1,24 @@
-<<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>TechStore - Premium Electronics</title>
-	<link rel="stylesheet" href="">
+	<link rel="stylesheet" href="styles.css">
 </head>
 <body>
 	<header>
-		<nav>
-			<a href="index.html" class="logo"><img src=""  alt=""></a>
-			<ul>
+		<nav class="padding-bottom">
+			
+			<ul class="flex-box">
 				<li><a href="index.html">Home</a></li>
-				<li><a href="about.html">About</a></li>
+				<li><a href="product1.html">Product 1</a></li>
+				<li><a href="product2.html">Product 2</a></li>
+				<li><a href="product3.html">Product 3</a></li>
 				<li><a href="cart.html">Cart</a></li>
 			</ul>
 		</nav>
-		<div class="masthead">
+		<div class="masthead text-center">
 			<h1>Welcome to TechStore</h1>
 			<p>Your destination for premium electronics and cutting-edge technology</p>
 		</div>
@@ -24,41 +26,43 @@
 
 	
 	<main role="main" class="price-list">
-		<section class="primary">
+		<section class="primary text-center padding-bottom">
 			<p class="popular">Most Popular</p>
 			<img src="images/iphone.png" alt="Premium Smartphone">
 			<div class="text-wrapper">
 				<h2>Premium Smartphone</h2>
 				<p>Experience cutting-edge technology in the palm of your hand</p>
 				<p>6.7-inch OLED display, 108MP camera, 5G connectivity</p>
-				<p class="price">$899.99</p>
+				<p class="price padding-bottom">$899.99</p>
 				<p class="cta"><a href="product1.html" class="buy-now-btn">Buy Now</a></p>
 			</div>
 		</section>
-		<section class="secondary">
-			<img src="images/laptop.png" alt="Professional Laptop">
+		<section class="secondary text-center padding-bottom">
+			<img src="images/laptop.png" alt="Professional Laptop" class="scale-img">
 			<div class="text-wrapper">
 				<h2>Professional Laptop</h2>
                 <p>Power and portability for the modern professional</p>
                 <p>15.6-inch 4K display, Core i7, 16GB RAM, 1TB SSD</p>
-                <p class="price">$1,499.99</p>
+                <p class="price padding-bottom">$1,499.99</p>
 				<p class="cta"><a href="product2.html" class="buy-now-btn">Buy Now</a></p>
 			</div>
 		</section>
-		<section>
-			<img src="images/computer.png" alt="Ultimate Gaming Computer">
+		<section class="text-center padding-bottom">
+			<img src="images/computer.png" alt="Ultimate Gaming Computer" class="scale-img">
 			<div class="text-wrapper">
 				<h2>Ultimate Gaming Computer</h2>
                 <p>Unleash maximum performance for the ultimate gaming experience</p>
                 <p>RTX 4090, Core i9, 32GB RAM, 2TB SSD</p>
-                <p class="price">$3,299.99</p>
+                <p class="price padding-bottom">$3,299.99</p>
 				<p class="cta"><a href="product3.html" class="buy-now-btn">Buy Now</a></p>
 			</div>
 		</section>
 	</main>
 
-	<footer>
+	<footer class="text-center">
+		
 		Copyright © 2025 TechStore. All rights reserved.
+
 	</footer>
 </body>
 </html>
