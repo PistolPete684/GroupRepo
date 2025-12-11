@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title></title>
+    <title>Shopping Cart - TechStore</title>
     <link rel="stylesheet" href="css/stylesheet.CSS">
 </head>
 <body>
@@ -11,51 +11,51 @@
         <nav>
             <a href="index.html" class="logo"><img src="img/EDR.png" alt=""></a>
             <ul>
-                <li><a href="index.html"></a></li>
-                <li><a href="about.html"></a></li>
-                <li><a href="cart.html"></a></li>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="cart.html">Cart</a></li>
             </ul>
         </nav>
         <div class="masthead">
-            <h1></h1>
-            <p></p>
+            <h1>Shopping Cart</h1>
+            <p>Complete your purchase and enjoy your new tech products</p>
         </div>
     </header>
 
     <main role="main">
         <section class="checkout-form">
-            <h2></h2><br>
+            <h2>Checkout</h2><br>
 
             <form action="#" method="post" id="checkout-form">
-                <label for="name"></label>
+                <label for="name">Full Name:</label>
                 <input type="text" id="name" name="name" required><br>
                 
-                <label for="email"></label>
+                <label for="email">Email Address:</label>
                 <input type="email" id="email" name="email" required><br>
                 
-                <label for="address"></label>
+                <label for="address">Shipping Address:</label>
                 <textarea id="address" name="address" required></textarea><br>
                 
-                <label for="payment"></label>
+                <label for="payment">Payment Method:</label>
                 <select id="payment" name="payment" required>
-                    <option value=""></option>
-                    <option value=""></option>
-                    <option value=""></option>
+                    <option value="">Select Payment Method</option>
+                    <option value="credit-card">Credit Card</option>
+                    <option value="paypal">PayPal</option>
                 </select><br>
                 
-                <button type="submit" class="submit-btn"></button>
+                <button type="submit" class="submit-btn">Complete Purchase</button>
             </form>
 
             <div id="confirmation" style="display: none;">
-                <h3></h3>
-                <p></p>
-                <p class="cta"><a href="index.html" class="buy-now-btn"></a></p>
+                <h3>Order Confirmed!</h3>
+                <p>Thank you for your purchase. Your order has been successfully placed and will be shipped to your address shortly.</p>
+                <p class="cta"><a href="index.html" class="buy-now-btn">Continue Shopping</a></p>
             </div>
         </section>
     </main>
 
     <footer>
-        <p></p>
+        <p>&copy; 2025 TechStore. All rights reserved.</p>
     </footer>
 </body>
 </html>
